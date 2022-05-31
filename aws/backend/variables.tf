@@ -10,7 +10,7 @@ variable "state_bucket" {
 }
 
 variable "dynamodb_table" {
-  description = "DynamoDB table for locking Terraform states"
+  description = "DynamoDB table for locking Terrafom states"
   type        = string
   default     = "aws-terraform-states-lock"
 }
