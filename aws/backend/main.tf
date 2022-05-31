@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "aws-terraform-states-backend"
+    bucket         = "aws-terraform-states-backend-serlevki-latest"
     key            = "backend/terraform.tfstate"
     region         = "eu-north-1"
     dynamodb_table = "aws-terraform-states-lock"
