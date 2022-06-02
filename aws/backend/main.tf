@@ -20,11 +20,11 @@ provider "aws" {
   default_tags {
     tags = {
       "TerminationDate" = "Permanent",
-      "Environment"     = "Develpment",
+      "Environment"     = "Develpmentttt",
       "Team"            = "DevOps",
       "DeployedBy"      = "Terraform",
       "Application"     = "Terraform Backend",
-      "OwnerEmail"      = "devops@example.com"
+      "OwnerEmail"      = "serlevki"
     }
   }
 }
