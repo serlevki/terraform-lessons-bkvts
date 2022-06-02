@@ -1,7 +1,7 @@
 name: "Terraform_CI/CD_Backend-test"
 
 on:
-  push:
+  commit:
     branches:
       - master
     paths:
