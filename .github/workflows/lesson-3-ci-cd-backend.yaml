@@ -1,4 +1,4 @@
-name: "Terraform_CI/CD_Backend"
+name: "Terraform_CI/CD_Backend-test"
 
 on:
   push:
